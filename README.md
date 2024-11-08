@@ -27,6 +27,21 @@ Create a ".env" file and add contents like the following (using your own AlphaVa
 ALPHAVANTAGE_API_KEY="..."
 ```
 
+Install packages for email sending:
+
+```sh
+pip install -r requirements.txt
+```
+
+Obtain an API Key from SendGrid.
+
+Create a ".env" file and add contents like the following (using your own SendGrid API Key):
+
+```sh
+SENDGRID_API_KEY = ""
+SENDGRID_SENDER_ADDRESS = ""
+```
+
 ## Usage
 
 Run the example script:
@@ -47,4 +62,9 @@ Run the stocks report:
 
 ```sh
 python app/stocks.py
+```
+
+Run the example email sending file:
+```sh
+python app/email_service.py
 ```
