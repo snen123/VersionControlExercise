@@ -72,3 +72,9 @@ Run the example email sending file:
 ```sh
 python app/email_service.py
 ```
+
+### Webapp
+
+```sh
+# Mac OS:
+FLASK_APP=web_app flask run
